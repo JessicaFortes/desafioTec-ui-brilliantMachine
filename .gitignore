@@ -1,0 +1,13 @@
+/node_modules
+/public
+
+# testing
+/cypress/screenshots
+/cypress/videos
+/cypress/config/allure-reports
+cypress/allure-reports
+# production
+/build
+package-lock.json
+
+#env

@@ -1,0 +1,38 @@
+{
+  "name": "desafiotec-ui-brilliantmachine",
+  "version": "1.0.0",
+  "description": "Technical automation test Brilliant Machine",
+  "main": "index.js",
+  "scripts": {
+    "test-prod": "npx cypress run --config-file cypress/config/souceDemoProd.js",
+    "test-open-prod": "npx cypress open --config-file cypress/config/souceDemoProd.js",
+    "test": "npx cypress run",
+    "test-open": "npx cypress open",
+    "report:allure": "npx allure serve cypress/config/allure-results && npx allure open cypress/config/allure-results"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JessicaFortes/desafioTec-ui-brilliantMachine.git"
+  },
+  "keywords": [
+    "ui",
+    "test",
+    "brilliant",
+    "machine",
+    "cypress",
+    "automation",
+    "test",
+    "e2e"
+  ],
+  "author": "Jessica Magalhaes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaFortes/desafioTec-ui-brilliantMachine/issues"
+  },
+  "homepage": "https://github.com/JessicaFortes/desafioTec-ui-brilliantMachine#readme",
+  "devDependencies": {
+    "allure-commandline": "^2.30.0",
+    "allure-cypress": "^3.0.0-beta.11",
+    "cypress": "^13.14.1"
+  }
+}
